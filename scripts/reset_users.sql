@@ -33,25 +33,69 @@ CREATE TABLE users (
   created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
+-- Insert statements with every column explicitly filled
 INSERT INTO users (
+  email,
+  phone_number,
+  password,
   first_name,
   last_name,
-  email,
-  password,
+  bio,
   birthdate,
+  gender,
+  interested_in,
+  height_cm,
+  location,
+  is_active,
+  is_verified,
   created_at
 )
 VALUES
-  ('User1', 'Sample', 'user1@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User2', 'Sample', 'user2@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User3', 'Sample', 'user9@example.com', 'hashed_pass', '2000-01-01', NOW());
-  -- ('User1', 'Sample', 'user1@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User2', 'Sample', 'user2@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User3', 'Sample', 'user3@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User4', 'Sample', 'user4@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User5', 'Sample', 'user5@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User6', 'Sample', 'user6@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User7', 'Sample', 'user7@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User8', 'Sample', 'user8@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('User9', 'Sample', 'user9@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  -- ('Dan', 'Gavin', 'dan.gavin49@gmail.com', 'hashed_pass', '2000-01-01', NOW());
+  (
+    'user1@example.com', 
+    '+15551234567', 
+    'hashed_pass_1', 
+    'Alex', 
+    'Mercer', 
+    'Love hiking, tech, and trying new coffee spots around town.', 
+    '1995-04-12', 
+    'Male', 
+    'Female', 
+    182, 
+    'Los Angeles, CA', 
+    TRUE, 
+    TRUE, 
+    NOW()
+  ),
+  (
+    'user2@example.com', 
+    '+15559876543', 
+    'hashed_pass_2', 
+    'Jordan', 
+    'Blake', 
+    'Amateur chef and avid reader. Looking for someone to explore food festivals with.', 
+    '1998-11-23', 
+    'Female', 
+    'Male', 
+    167, 
+    'Austin, TX', 
+    TRUE, 
+    FALSE, 
+    NOW()
+  ),
+  (
+    'user3@example.com', 
+    '+15554448888', 
+    'hashed_pass_3', 
+    'Taylor', 
+    'Swiftly', 
+    'Weekend musician, dog lover, and full-time software developer.', 
+    '2001-08-05', 
+    'Female', 
+    'Male', 
+    175, 
+    'New York, NY', 
+    TRUE, 
+    TRUE, 
+    NOW()
+  );
