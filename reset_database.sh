@@ -2,7 +2,7 @@
 
 # Database connection details
 DB_USER="postgres"
-DB_NAME="table-top"
+DB_NAME="match"
 
 # Directory containing SQL scripts
 SQL_DIR="scripts"
