@@ -44,11 +44,14 @@ INSERT INTO users (
 VALUES
   ('User1', 'Sample', 'user1@example.com', 'hashed_pass', '2000-01-01', NOW()),
   ('User2', 'Sample', 'user2@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User3', 'Sample', 'user3@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User4', 'Sample', 'user4@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User5', 'Sample', 'user5@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User6', 'Sample', 'user6@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User7', 'Sample', 'user7@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User8', 'Sample', 'user8@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('User9', 'Sample', 'user9@example.com', 'hashed_pass', '2000-01-01', NOW()),
-  ('Dan', 'Gavin', 'dan.gavin49@gmail.com', 'hashed_pass', '2000-01-01', NOW());
+  ('User3', 'Sample', 'user9@example.com', 'hashed_pass', '2000-01-01', NOW());
+  -- ('User1', 'Sample', 'user1@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User2', 'Sample', 'user2@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User3', 'Sample', 'user3@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User4', 'Sample', 'user4@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User5', 'Sample', 'user5@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User6', 'Sample', 'user6@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User7', 'Sample', 'user7@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User8', 'Sample', 'user8@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('User9', 'Sample', 'user9@example.com', 'hashed_pass', '2000-01-01', NOW()),
+  -- ('Dan', 'Gavin', 'dan.gavin49@gmail.com', 'hashed_pass', '2000-01-01', NOW());
