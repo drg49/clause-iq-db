@@ -10,7 +10,8 @@ CREATE TABLE users (
   username VARCHAR(25) NOT NULL,
   phone_number VARCHAR(20),
 
-  password VARCHAR(105) NOT NULL,
+  -- Password hashes (scrypt/bcrypt hashes can exceed 105 chars)
+  password VARCHAR(255) NOT NULL,
 
   -- Profile
   bio VARCHAR(1000),
