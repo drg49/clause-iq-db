@@ -2,7 +2,7 @@
 
 # Database connection details
 DB_USER="postgres"
-DB_NAME="match"
+DB_NAME="nutrilens"
 
 # Directory containing SQL scripts
 SQL_DIR="scripts"
