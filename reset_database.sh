@@ -19,3 +19,5 @@ for SQL_FILE in "$SQL_DIR"/*.sql; do
     echo "Script $SQL_FILE execution failed."
   fi
 done
+
+read -p "Press Enter to close..."

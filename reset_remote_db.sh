@@ -30,7 +30,7 @@ for SQL_FILE in "$SQL_DIR"/*.sql; do
   echo ""
   echo "Executing $SQL_FILE..."
 
-  "C:/Program Files/PostgreSQL/18/pgAdmin 4/runtime/psql.exe" "$DB_URL" \ \
+  psql "$DB_URL" \
     -a \
     -v ON_ERROR_STOP=1 \
     -f "$SQL_FILE"
