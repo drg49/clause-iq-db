@@ -25,7 +25,7 @@ CREATE TABLE users (
   created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
--- Insert statements with every column explicitly filled
+-- Insert a sample user for testing
 INSERT INTO users (
   email,
   username,
@@ -39,26 +39,6 @@ INSERT INTO users (
 VALUES
   (
     'user1@example.com', 
-    'Alex_Mercer', 
-    '+15551234567', 
-    'hashed_pass_1', 
-    'Love hiking, tech, and trying new coffee spots around town.', 
-    'Los Angeles, CA', 
-    TRUE, 
-    NOW()
-  ),
-  (
-    'user2@example.com', 
-    'Jordan_Blake', 
-    '+15559876543', 
-    'hashed_pass_2', 
-    'Amateur chef and avid reader. Looking for someone to explore food festivals with.', 
-    'Austin, TX', 
-    TRUE, 
-    NOW()
-  ),
-  (
-    'user3@example.com', 
     'Taylor_Swiftly', 
     '+15554448888', 
     'hashed_pass_3', 
