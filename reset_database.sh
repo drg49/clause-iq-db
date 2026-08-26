@@ -2,7 +2,7 @@
 
 # Database connection details
 DB_USER="postgres"
-DB_NAME="nutrilens"
+DB_NAME="clause-iq"
 
 # Directory containing SQL scripts
 SQL_DIR="scripts"
