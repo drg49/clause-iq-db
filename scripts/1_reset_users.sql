@@ -10,7 +10,8 @@ CREATE TABLE users (
 
   -- Auth
   email VARCHAR(150) UNIQUE NOT NULL,
-  username VARCHAR(25) NOT NULL,
+  first_name VARCHAR(25) NOT NULL,
+  last_name VARCHAR(25) NOT NULL,
   phone_number VARCHAR(20),
 
   -- Password hashes (scrypt/bcrypt hashes can exceed 105 chars)
@@ -31,7 +32,8 @@ CREATE TABLE users (
 -- Insert a sample user for testing
 INSERT INTO users (
   email,
-  username,
+  first_name,
+  last_name,
   phone_number,
   password,
   bio,
@@ -42,7 +44,8 @@ INSERT INTO users (
 VALUES
   (
     'user1@example.com', 
-    'Taylor_Swiftly', 
+    'Taylor', 
+    'Swiftly', 
     '+15554448888', 
     'hashed_pass_3', 
     'Weekend musician, dog lover, and full-time software developer.', 
