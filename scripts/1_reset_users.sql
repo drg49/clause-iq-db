@@ -1,3 +1,6 @@
+-- Drop dependent table first
+DROP TABLE IF EXISTS contracts;
+
 -- Drop table
 DROP TABLE IF EXISTS users;
 
