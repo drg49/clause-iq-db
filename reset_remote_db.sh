@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Render remote database reset script
+# Remote database reset script
 # Asks for the full external DATABASE URL. URL is not stored.
 
-echo "Paste your Render external DATABASE URL:"
+echo "Paste your external DATABASE URL:"
 read -s DB_URL
 
 echo ""
